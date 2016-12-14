@@ -1,0 +1,84 @@
+.box {
+  height: 125px;
+  width: 125px;
+  line-height: 125px;
+}
+
+body {
+  background: #003300;
+  color: white;
+}
+
+
+#bigDiv {
+  height: 375px;
+  width: 375px;
+  margin: auto;
+}
+
+#topLeft {
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+}
+
+#topMiddle {
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+}
+
+#topRight {
+  border-bottom: 5px solid white;
+}
+
+#middleLeft {
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+}
+
+#middleMiddle {
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+}
+
+#middleRight {
+  border-bottom: 5px solid white;
+}
+
+#bottomLeft {
+  border-right: 5px solid white;
+}
+
+#bottomMiddle {
+  border-right: 5px solid white;
+}
+
+#overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .7);
+	top: 0;
+	left: 0;
+	display: none;
+	text-align: center;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+p, div {
+  font-size: 30px;
+}
+
+.modalP {
+  margin-top: 180px;
+}
+
+#xButton {
+  margin-right: 20px;
+}
+
+#oButton {
+  margin-left: 20px;
+}
